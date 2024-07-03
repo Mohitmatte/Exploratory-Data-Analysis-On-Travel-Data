@@ -42,6 +42,28 @@ The dataset includes various features related to travel such as:
 ## Project Structure
 
 The repository is organized as follows:
+Travel_EDA/
+├── data/
+│ └── Travel.csv
+├── notebooks/
+│ └── Travel_EDA.ipynb
+├── images/
+│ └── visualizations/
+├── src/
+│ ├── data_preprocessing.py
+│ ├── data_visualization.py
+│ └── statistical_analysis.py
+├── README.md
+└── requirements.txt
+
+
+- `data/`: Contains the travel dataset.
+- `notebooks/`: Jupyter notebooks for the EDA process.
+- `images/`: Visualizations and plots generated during the analysis.
+- `src/`: Python scripts for data preprocessing, visualization, and statistical analysis.
+- `README.md`: Project documentation.
+- `requirements.txt`: List of dependencies required for the project.
+
 
 - `data/`: Contains the travel dataset.
 - `notebooks/`: Jupyter notebooks for the EDA process.
@@ -55,7 +77,5 @@ The repository is organized as follows:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Mohitmatte/Travel_EDA.git
-
-Feel free to customize the content to better fit your specific project details and dataset.
+   git clone https://github.com/yourusername/Travel_EDA.git
 
